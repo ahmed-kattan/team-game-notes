@@ -1,9 +1,15 @@
+# Publishes the latest copy of the site from GitHub (ahmed-kattan/team-game-notes),
+# so new posts pushed there appear here on the next run (push or daily schedule).
 pages:
   stage: deploy
+  image: alpine:3.20
   script:
-    - echo 'static site in public/'
+    - apk add --no-cache git
+    - git clone --depth 1 https://github.com/ahmed-kattan/team-game-notes.git src
+    - rm -rf public && cp -r src/public public
   artifacts:
     paths:
       - public
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_PIPELINE_SOURCE == "schedule"
