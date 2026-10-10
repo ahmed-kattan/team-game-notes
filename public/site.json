@@ -1,0 +1,13 @@
+{
+ "title": "Team Game Notes",
+ "short": "Team Game Notes",
+ "description": "Running games for remote and hybrid teams: all-hands, openers and scripts for facilitators. Notes by Ahmed Moaz.",
+ "canonical_base": "https://ahmedalkattan105.gitlab.io/team-game-notes/",
+ "base": "/team-game-notes/",
+ "blurb": "Games at work fail when they are forced, too long or built for the loudest person. These notes are practical scripts for running short games with remote and hybrid teams, including the big calls where half the room is on mute.",
+ "footer": "Written by Ahmed Moaz.",
+ "about": [
+  "I am Ahmed Moaz. I build Boardit, a small site of free browser games that teams sometimes use on calls.",
+  "This blog is about running games at work without the forced fun: timings, scripts and what to do when thirty people are on one call."
+ ]
+}

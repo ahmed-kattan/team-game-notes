@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ahmedalkattan105.gitlab.io/team-game-notes/sitemap.xml
